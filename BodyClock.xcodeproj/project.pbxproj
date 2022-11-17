@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05126D95291FEBB6002A5F1E /* BodyClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126D94291FEBB6002A5F1E /* BodyClockApp.swift */; };
+		05126D97291FEBB6002A5F1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126D96291FEBB6002A5F1E /* ContentView.swift */; };
+		05126D99291FEBB6002A5F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05126D98291FEBB6002A5F1E /* Assets.xcassets */; };
+		05126D9C291FEBB6002A5F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05126D9B291FEBB6002A5F1E /* Preview Assets.xcassets */; };
+		05126DB0291FEBB7002A5F1E /* BodyClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DAF291FEBB7002A5F1E /* BodyClockUITests.swift */; };
+		05126DB2291FEBB7002A5F1E /* BodyClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DB1291FEBB7002A5F1E /* BodyClockUITestsLaunchTests.swift */; };
+		05126DCB291FF9D1002A5F1E /* undefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DCA291FF9D1002A5F1E /* undefined.swift */; };
+		05126DD0291FFB00002A5F1E /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DCF291FFB00002A5F1E /* TestCase.swift */; };
+		05126DD4291FFEB4002A5F1E /* Date+TestInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DD3291FFEB4002A5F1E /* Date+TestInit.swift */; };
+		05126DE4292028DB002A5F1E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DE3292028DB002A5F1E /* Coordinate.swift */; };
+		05126DF0292139A0002A5F1E /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DEF292139A0002A5F1E /* Unwrap.swift */; };
+		05126DF2292144BB002A5F1E /* OrganPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DF1292144BB002A5F1E /* OrganPhase.swift */; };
+		05126DFC292147F7002A5F1E /* DayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126DFB292147F7002A5F1E /* DayController.swift */; };
+		05126E01292152C0002A5F1E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126E00292152C0002A5F1E /* Time.swift */; };
+		05126E0529216FF9002A5F1E /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126E0429216FF9002A5F1E /* DayView.swift */; };
+		05126E072923A34C002A5F1E /* SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126E062923A34C002A5F1E /* SafeSubscript.swift */; };
+		05126E0C29265510002A5F1E /* OrganPhasesGetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126E0B29265510002A5F1E /* OrganPhasesGetable.swift */; };
+		05126E0E29265CE1002A5F1E /* OrganPhasesGetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05126E0D29265CE1002A5F1E /* OrganPhasesGetableTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05126DA2291FEBB7002A5F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05126D89291FEBB6002A5F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05126D90291FEBB6002A5F1E;
+			remoteInfo = BodyClock;
+		};
+		05126DAC291FEBB7002A5F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05126D89291FEBB6002A5F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05126D90291FEBB6002A5F1E;
+			remoteInfo = BodyClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05126D91291FEBB6002A5F1E /* BodyClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05126D94291FEBB6002A5F1E /* BodyClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyClockApp.swift; sourceTree = "<group>"; };
+		05126D96291FEBB6002A5F1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05126D98291FEBB6002A5F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05126D9B291FEBB6002A5F1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05126DA1291FEBB7002A5F1E /* BodyClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05126DAB291FEBB7002A5F1E /* BodyClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05126DAF291FEBB7002A5F1E /* BodyClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyClockUITests.swift; sourceTree = "<group>"; };
+		05126DB1291FEBB7002A5F1E /* BodyClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05126DCA291FF9D1002A5F1E /* undefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = undefined.swift; sourceTree = "<group>"; };
+		05126DCF291FFB00002A5F1E /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		05126DD3291FFEB4002A5F1E /* Date+TestInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+TestInit.swift"; sourceTree = "<group>"; };
+		05126DE3292028DB002A5F1E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		05126DEF292139A0002A5F1E /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
+		05126DF1292144BB002A5F1E /* OrganPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganPhase.swift; sourceTree = "<group>"; };
+		05126DFB292147F7002A5F1E /* DayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayController.swift; sourceTree = "<group>"; };
+		05126E00292152C0002A5F1E /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		05126E0429216FF9002A5F1E /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		05126E062923A34C002A5F1E /* SafeSubscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeSubscript.swift; sourceTree = "<group>"; };
+		05126E0A292654AA002A5F1E /* BodyClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BodyClock.entitlements; sourceTree = "<group>"; };
+		05126E0B29265510002A5F1E /* OrganPhasesGetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganPhasesGetable.swift; sourceTree = "<group>"; };
+		05126E0D29265CE1002A5F1E /* OrganPhasesGetableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganPhasesGetableTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05126D8E291FEBB6002A5F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05126D9E291FEBB7002A5F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05126DA8291FEBB7002A5F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05126D88291FEBB6002A5F1E = {
+			isa = PBXGroup;
+			children = (
+				05126D93291FEBB6002A5F1E /* BodyClock */,
+				05126DA4291FEBB7002A5F1E /* BodyClockTests */,
+				05126DAE291FEBB7002A5F1E /* BodyClockUITests */,
+				05126D92291FEBB6002A5F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05126D92291FEBB6002A5F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05126D91291FEBB6002A5F1E /* BodyClock.app */,
+				05126DA1291FEBB7002A5F1E /* BodyClockTests.xctest */,
+				05126DAB291FEBB7002A5F1E /* BodyClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05126D93291FEBB6002A5F1E /* BodyClock */ = {
+			isa = PBXGroup;
+			children = (
+				05126E0A292654AA002A5F1E /* BodyClock.entitlements */,
+				05126D94291FEBB6002A5F1E /* BodyClockApp.swift */,
+				05126D96291FEBB6002A5F1E /* ContentView.swift */,
+				05126DF42921461C002A5F1E /* General */,
+				05126DF329214602002A5F1E /* Day */,
+				05126DC9291FF9BD002A5F1E /* Utils */,
+				05126D98291FEBB6002A5F1E /* Assets.xcassets */,
+				05126D9A291FEBB6002A5F1E /* Preview Content */,
+			);
+			path = BodyClock;
+			sourceTree = "<group>";
+		};
+		05126D9A291FEBB6002A5F1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05126D9B291FEBB6002A5F1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05126DA4291FEBB7002A5F1E /* BodyClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				05126E0D29265CE1002A5F1E /* OrganPhasesGetableTests.swift */,
+				05126DCE291FFAF9002A5F1E /* Utils */,
+			);
+			path = BodyClockTests;
+			sourceTree = "<group>";
+		};
+		05126DAE291FEBB7002A5F1E /* BodyClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05126DAF291FEBB7002A5F1E /* BodyClockUITests.swift */,
+				05126DB1291FEBB7002A5F1E /* BodyClockUITestsLaunchTests.swift */,
+			);
+			path = BodyClockUITests;
+			sourceTree = "<group>";
+		};
+		05126DC9291FF9BD002A5F1E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				05126DCA291FF9D1002A5F1E /* undefined.swift */,
+				05126DEF292139A0002A5F1E /* Unwrap.swift */,
+				05126E062923A34C002A5F1E /* SafeSubscript.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		05126DCE291FFAF9002A5F1E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				05126DCF291FFB00002A5F1E /* TestCase.swift */,
+				05126DD3291FFEB4002A5F1E /* Date+TestInit.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		05126DF329214602002A5F1E /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				05126DF8292146A1002A5F1E /* Protocols */,
+				05126DFB292147F7002A5F1E /* DayController.swift */,
+				05126E0429216FF9002A5F1E /* DayView.swift */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		05126DF42921461C002A5F1E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				05126DE3292028DB002A5F1E /* Coordinate.swift */,
+				05126DF1292144BB002A5F1E /* OrganPhase.swift */,
+				05126E00292152C0002A5F1E /* Time.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		05126DF8292146A1002A5F1E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				05126E0B29265510002A5F1E /* OrganPhasesGetable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05126D90291FEBB6002A5F1E /* BodyClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05126DB5291FEBB7002A5F1E /* Build configuration list for PBXNativeTarget "BodyClock" */;
+			buildPhases = (
+				05126D8D291FEBB6002A5F1E /* Sources */,
+				05126D8E291FEBB6002A5F1E /* Frameworks */,
+				05126D8F291FEBB6002A5F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyClock;
+			packageProductDependencies = (
+			);
+			productName = BodyClock;
+			productReference = 05126D91291FEBB6002A5F1E /* BodyClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05126DA0291FEBB7002A5F1E /* BodyClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05126DB8291FEBB7002A5F1E /* Build configuration list for PBXNativeTarget "BodyClockTests" */;
+			buildPhases = (
+				05126D9D291FEBB7002A5F1E /* Sources */,
+				05126D9E291FEBB7002A5F1E /* Frameworks */,
+				05126D9F291FEBB7002A5F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05126DA3291FEBB7002A5F1E /* PBXTargetDependency */,
+			);
+			name = BodyClockTests;
+			productName = BodyClockTests;
+			productReference = 05126DA1291FEBB7002A5F1E /* BodyClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05126DAA291FEBB7002A5F1E /* BodyClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05126DBB291FEBB7002A5F1E /* Build configuration list for PBXNativeTarget "BodyClockUITests" */;
+			buildPhases = (
+				05126DA7291FEBB7002A5F1E /* Sources */,
+				05126DA8291FEBB7002A5F1E /* Frameworks */,
+				05126DA9291FEBB7002A5F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05126DAD291FEBB7002A5F1E /* PBXTargetDependency */,
+			);
+			name = BodyClockUITests;
+			productName = BodyClockUITests;
+			productReference = 05126DAB291FEBB7002A5F1E /* BodyClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05126D89291FEBB6002A5F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					05126D90291FEBB6002A5F1E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					05126DA0291FEBB7002A5F1E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 05126D90291FEBB6002A5F1E;
+					};
+					05126DAA291FEBB7002A5F1E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 05126D90291FEBB6002A5F1E;
+					};
+				};
+			};
+			buildConfigurationList = 05126D8C291FEBB6002A5F1E /* Build configuration list for PBXProject "BodyClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05126D88291FEBB6002A5F1E;
+			packageReferences = (
+			);
+			productRefGroup = 05126D92291FEBB6002A5F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05126D90291FEBB6002A5F1E /* BodyClock */,
+				05126DA0291FEBB7002A5F1E /* BodyClockTests */,
+				05126DAA291FEBB7002A5F1E /* BodyClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05126D8F291FEBB6002A5F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05126D9C291FEBB6002A5F1E /* Preview Assets.xcassets in Resources */,
+				05126D99291FEBB6002A5F1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05126D9F291FEBB7002A5F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05126DA9291FEBB7002A5F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05126D8D291FEBB6002A5F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05126DFC292147F7002A5F1E /* DayController.swift in Sources */,
+				05126D97291FEBB6002A5F1E /* ContentView.swift in Sources */,
+				05126DF0292139A0002A5F1E /* Unwrap.swift in Sources */,
+				05126E01292152C0002A5F1E /* Time.swift in Sources */,
+				05126E0529216FF9002A5F1E /* DayView.swift in Sources */,
+				05126DCB291FF9D1002A5F1E /* undefined.swift in Sources */,
+				05126E072923A34C002A5F1E /* SafeSubscript.swift in Sources */,
+				05126D95291FEBB6002A5F1E /* BodyClockApp.swift in Sources */,
+				05126E0C29265510002A5F1E /* OrganPhasesGetable.swift in Sources */,
+				05126DE4292028DB002A5F1E /* Coordinate.swift in Sources */,
+				05126DF2292144BB002A5F1E /* OrganPhase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05126D9D291FEBB7002A5F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05126E0E29265CE1002A5F1E /* OrganPhasesGetableTests.swift in Sources */,
+				05126DD0291FFB00002A5F1E /* TestCase.swift in Sources */,
+				05126DD4291FFEB4002A5F1E /* Date+TestInit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05126DA7291FEBB7002A5F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05126DB0291FEBB7002A5F1E /* BodyClockUITests.swift in Sources */,
+				05126DB2291FEBB7002A5F1E /* BodyClockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05126DA3291FEBB7002A5F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05126D90291FEBB6002A5F1E /* BodyClock */;
+			targetProxy = 05126DA2291FEBB7002A5F1E /* PBXContainerItemProxy */;
+		};
+		05126DAD291FEBB7002A5F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05126D90291FEBB6002A5F1E /* BodyClock */;
+			targetProxy = 05126DAC291FEBB7002A5F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05126DB3291FEBB7002A5F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05126DB4291FEBB7002A5F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05126DB6291FEBB7002A5F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BodyClock/BodyClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodyClock/Preview Content\"";
+				DEVELOPMENT_TEAM = J4V42SNZLF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.let-sCode.BodyClock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05126DB7291FEBB7002A5F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BodyClock/BodyClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodyClock/Preview Content\"";
+				DEVELOPMENT_TEAM = J4V42SNZLF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.let-sCode.BodyClock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05126DB9291FEBB7002A5F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4V42SNZLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.let-sCode.BodyClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BodyClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BodyClock";
+			};
+			name = Debug;
+		};
+		05126DBA291FEBB7002A5F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4V42SNZLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.let-sCode.BodyClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BodyClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BodyClock";
+			};
+			name = Release;
+		};
+		05126DBC291FEBB7002A5F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4V42SNZLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.let-sCode.BodyClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BodyClock;
+			};
+			name = Debug;
+		};
+		05126DBD291FEBB7002A5F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4V42SNZLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.let-sCode.BodyClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BodyClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05126D8C291FEBB6002A5F1E /* Build configuration list for PBXProject "BodyClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05126DB3291FEBB7002A5F1E /* Debug */,
+				05126DB4291FEBB7002A5F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05126DB5291FEBB7002A5F1E /* Build configuration list for PBXNativeTarget "BodyClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05126DB6291FEBB7002A5F1E /* Debug */,
+				05126DB7291FEBB7002A5F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05126DB8291FEBB7002A5F1E /* Build configuration list for PBXNativeTarget "BodyClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05126DB9291FEBB7002A5F1E /* Debug */,
+				05126DBA291FEBB7002A5F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05126DBB291FEBB7002A5F1E /* Build configuration list for PBXNativeTarget "BodyClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05126DBC291FEBB7002A5F1E /* Debug */,
+				05126DBD291FEBB7002A5F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05126D89291FEBB6002A5F1E /* Project object */;
+}
